@@ -1,0 +1,23 @@
+function fun()
+{
+var x=45;
+console.log("This is a Simple Function");
+console.log("Various methods to show a function");
+return x;
+}
+fun()
+
+just = fun()
+console.log(just);
+
+ne =fun(55)
+console.log(ne);
+
+
+function next(num1, num2)
+{
+console.log("we are going to pass values in a parameter");
+return num1* num2;
+}
+shows = next(50,66)
+console.log(shows);
