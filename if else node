@@ -1,0 +1,17 @@
+var getinfo=require("readline-sync");
+var input=getinfo.question("Enter a number: ");
+console.log("This is the First input: "+input);
+
+console.log("This is the if else condition");
+var get1 = getinfo.question("Enter 1st Number: ");
+var get2 = getinfo.question("Enter 2nd Number: ");
+console.log("This is the  1st Number You Have Entered :" +get1);
+console.log("This is the  2nd Number You Have Entered :" +get2);
+if(get1 > get2)
+{
+console.log("1st Number Is Greater");
+}
+else
+{
+console.log("2nd Number Is Greater");
+}
