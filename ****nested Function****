@@ -1,0 +1,17 @@
+function n1()
+
+{
+
+console.log("this is first function");
+
+function n2()
+{
+console.log("This is the second function");
+}
+n2(); #####################################here you have to call the second function as you cannot call down.
+
+}
+
+just =n1();
+console.log(just)
+
