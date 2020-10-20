@@ -1,0 +1,11 @@
+test = ["Arun Vijay","Rocking code's"];
+console.log(test)
+console.log(test[0])
+
+next=["this is the first"]
+next=["this is the Second "]
+next=["this is the third"]
+next=["this is the fourth"]
+next=["this is the fifth"]
+
+console.log(next)
