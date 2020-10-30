@@ -1,0 +1,13 @@
+info ={name:"name",what:"what",some:"some"}
+console.log(info)
+console.log(info.name)
+for (x in info)
+{
+    console.log(x)
+}
+info.name ="Hey How Are You?"
+for(j in  info)
+{
+ 
+    console.log(j)
+}
