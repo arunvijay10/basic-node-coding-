@@ -1,0 +1,7 @@
+console.log("This is a arrow funcion in the javascript Es6")
+let add1=(num1,num2,num3) =>  num1+num2-num3
+let add1=(num1,num2,num3) =>  {return num1+num2-num3}
+console.log(add1(20,30,90))
+
+
+
