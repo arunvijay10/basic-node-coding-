@@ -1,0 +1,9 @@
+website for node packages npmjs.com
+first in the terminal write 
+npm init 
+Then add the details or enter everythig  null 
+npm install upper-case
+
+var fetch = require("upper-case")
+var neverSayNever=fetch.upperCase("This is the text to be in the upper case")
+console.log(neverSayNever)
