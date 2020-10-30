@@ -1,0 +1,25 @@
+console.log("lets write and check the scope")
+var some = 55
+function name() 
+{
+    var val = 5
+    console.log(val)
+}
+var x = new name()
+if(x==5)
+{
+    console.log("function code is inherited")
+} 
+else
+{
+    console.log("The code isn't inherited")
+}
+try
+{
+    console.log(val)
+    console.log(some)
+}
+catch
+{
+    console.log("Thats means its inside the function ")
+}
