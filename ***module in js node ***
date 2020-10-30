@@ -1,0 +1,13 @@
+first create a module.js file and write
+
+
+var infio= (data)=> {return "Data:"+data}
+var something=(callback)=>callback("Hello This is a callback function")
+console.log(something(infio))
+
+
+
+Then create a normalfile.js
+
+var info =require("./module") 
+info.fetching()
