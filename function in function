@@ -1,0 +1,19 @@
+function fun(name ,age , place ,work)
+{
+    this.name="Arun Vijay";
+    this.age =25;
+    this.place="world Wide";
+    this.work="programmer";
+
+    this.display=function()
+    {
+        console.log("This is My Name:  "+this.name  +  "  This is My Age: "+this.age)
+       
+        
+    }
+}
+
+var c = new fun()
+c.display()
+console.log(c)
+
