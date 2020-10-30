@@ -1,0 +1,10 @@
+function random(name ,age ,work, place )
+{
+    this.name=name
+    this.age=age
+    this.work=work
+    this.place=place
+}
+
+var x = new random("Arun Vijay",25,"Programmer","World Wide")
+console.log(x)
