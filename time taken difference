@@ -1,0 +1,7 @@
+var dt = new Date()
+for(i=0;i<250;i++)
+{
+    console.log("Running...")
+}
+var diff = new Date()-dt
+console.log(diff)
