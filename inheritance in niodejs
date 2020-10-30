@@ -1,0 +1,29 @@
+console.log("This is the inheritance ")
+
+class testing
+{
+    inherit() 
+    {
+        console.log("This is the inheritance Progam")
+    }
+}
+
+
+class name extends testing
+
+{
+
+    constructor(ni,nn){
+    super()
+    this.ni=ni
+    this.nn=nn
+}
+ hellos()
+    {
+        console.log("hello programmers")
+    }
+}
+
+var x = new name("power","get")
+console.log(x)
+x.hellos()
