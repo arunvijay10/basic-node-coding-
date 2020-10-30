@@ -1,0 +1,15 @@
+class name
+{
+    constructor(ni,nn){
+    this.ni=ni
+    this.nn=nn
+}
+ hellos()
+    {
+        console.log("hello programmers")
+    }
+}
+
+var x = new name("power","get")
+console.log(x)
+x.hellos()
