@@ -1,0 +1,10 @@
+console.log("Creating A Server In Node")
+var http = require('http')
+http.createServer(setting).listen(7000)
+
+console.log("Create a funcion and send put it in the createserver() then it is called as callback")
+function setting(req,res)
+{
+    res.write("This message is going to be printed on the google")
+    res.end()
+}
